@@ -1,0 +1,26 @@
+main {
+  padding-top: 32px;
+}
+
+.package {
+  width: 80%;
+  border: 2px solid #0e4f1f;
+  margin: 16px 0;
+  border-left: none;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package-title {
+  color: black;
+}
+
+.package-subtitle {
+  color: gray;
+  font-weight: bold;
+}
