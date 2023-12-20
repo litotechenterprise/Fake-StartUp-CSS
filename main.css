@@ -103,3 +103,9 @@
   border-radius: 50%;
   margin: auto;
 }
+
+.plan-list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
