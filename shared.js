@@ -4,10 +4,10 @@ let mobileNav = document.querySelector(".mobile-nav");
 
 mobileNavBtn.addEventListener("click", () => {
   mobileNav.style.display = "block";
-  backdrop.style.display = "block";
+  backdrop.classList.add("open");
 });
 
 backdrop.addEventListener("click", () => {
   mobileNav.style.display = "none";
-  backdrop.style.display = "none";
+  backdrop.classList.remove("open");
 });
